@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://yoursite.com/2018/02/07/markdown/index.html">
 <meta property="og:site_name" content="garuda&#39;s home">
 <meta property="og:description" content="markdown语法整理1. 标题12345678910# h1## h2### h3#### h4##### h5###### h6####### h7      // 错误代码######## h8     // 错误代码######### h9    // 错误代码########## h10  // 错误代码 h1h2h3h4h5h6####### h7       ######## h8">
-<meta property="og:updated_time" content="2018-02-07T03:35:09.302Z">
+<meta property="og:updated_time" content="2018-02-07T03:54:05.283Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="garuda&#39;s home">
 <meta name="twitter:description" content="markdown语法整理1. 标题12345678910# h1## h2### h3#### h4##### h5###### h6####### h7      // 错误代码######## h8     // 错误代码######### h9    // 错误代码########## h10  // 错误代码 h1h2h3h4h5h6####### h7       ######## h8">
@@ -66,7 +66,7 @@
         <section id="main"><article id="post-markdown" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/02/07/markdown/" class="article-date">
-  <time datetime="2018-02-07T03:35:09.302Z" itemprop="datePublished">2018-02-07</time>
+  <time datetime="2018-02-07T03:54:05.283Z" itemprop="datePublished">2018-02-07</time>
 </a>
     
   </div>
@@ -86,6 +86,26 @@
 <h3 id="3-TOC"><a href="#3-TOC" class="headerlink" title="3. TOC"></a>3. TOC</h3><p>注：根据标题生成目录，兼容性一般</p>
 <p><strong>代码</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[TOC]</div></pre></td></tr></table></figure></p>
 <p>演示<br>[TOC]</p>
+<h3 id="4-引用"><a href="#4-引用" class="headerlink" title="4. 引用"></a>4. 引用</h3><p><strong>代码1(单行式)</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&gt; hello world!</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>hello world!</p>
+</blockquote>
+<p><strong>代码2(多行式)</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; hello world!</div><div class="line">hello world!</div><div class="line">hello world!</div></pre></td></tr></table></figure></p>
+<p>或者<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; hello world!</div><div class="line">&gt; hello world!</div><div class="line">&gt; hello world!</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>hello world!<br>hello world!<br>hello world!</p>
+</blockquote>
+<p><strong>代码3(多层嵌套)</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&gt; aaaaaaaaa</div><div class="line">&gt;&gt; bbbbbbbbb</div><div class="line">&gt;&gt;&gt; cccccccccc</div></pre></td></tr></table></figure></p>
+<p><strong>演示</strong></p>
+<blockquote>
+<p>aaaaaaaaa</p>
+<blockquote>
+<p>bbbbbbbbb</p>
+<blockquote>
+<p>cccccccccc</p>
+</blockquote>
+</blockquote>
+</blockquote>
 
       
     </div>
